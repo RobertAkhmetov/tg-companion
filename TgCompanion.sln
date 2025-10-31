@@ -1,0 +1,46 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgCompanion.Domain", "src\TgCompanion.Domain\TgCompanion.Domain.csproj", "{D1234567-1234-1234-1234-123456789001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgCompanion.Application", "src\TgCompanion.Application\TgCompanion.Application.csproj", "{D1234567-1234-1234-1234-123456789002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgCompanion.Infrastructure", "src\TgCompanion.Infrastructure\TgCompanion.Infrastructure.csproj", "{D1234567-1234-1234-1234-123456789003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgCompanion.Api", "src\TgCompanion.Api\TgCompanion.Api.csproj", "{D1234567-1234-1234-1234-123456789004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1234567-1234-1234-1234-123456789000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1234567-1234-1234-1234-123456789001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1234567-1234-1234-1234-123456789004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1234567-1234-1234-1234-123456789004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1234567-1234-1234-1234-123456789001} = {D1234567-1234-1234-1234-123456789000}
+		{D1234567-1234-1234-1234-123456789002} = {D1234567-1234-1234-1234-123456789000}
+		{D1234567-1234-1234-1234-123456789003} = {D1234567-1234-1234-1234-123456789000}
+		{D1234567-1234-1234-1234-123456789004} = {D1234567-1234-1234-1234-123456789000}
+	EndGlobalSection
+EndGlobal
+

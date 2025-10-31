@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  tg-companion:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tg-companion-bot
+    restart: unless-stopped
+    environment:
+      - Telegram__BotToken=${TELEGRAM_BOT_TOKEN}
+      - Telegram__BotUsername=${TELEGRAM_BOT_USERNAME}
+      - Ollama__BaseUrl=http://host.docker.internal:11434
+      - Ollama__Model=deepseek-r1:8b
+      - Ollama__Temperature=0.7
+      - Ollama__MaxTokens=2000
+      - Logging__LogLevel__Default=Information
+    volumes:
+      - ./logs:/app/logs
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - tg-companion-network
+
+networks:
+  tg-companion-network:
+    driver: bridge
+
